@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "QwDmWoYZcEws6Rl4FydgrXrilEHlQpAX1gWLUwcnuhHsrzOTI6HUMXWnwS6q7Y7BNzGRKcfqYDqHmWjOrihlhA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ionut\\RiderProjects\\TimerBackend\\JobApi\\JobApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ionut\\.nuget\\packages\\camunda.openapi.client\\1.2.1\\camunda.openapi.client.1.2.1.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\jsonsubtypes\\1.8.0\\jsonsubtypes.1.8.0.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\polly\\7.2.1\\polly.7.2.1.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\ionut\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
