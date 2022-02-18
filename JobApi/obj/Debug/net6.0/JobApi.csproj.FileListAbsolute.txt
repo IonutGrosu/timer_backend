@@ -25,7 +25,5 @@ C:\Users\ionut\RiderProjects\TimerBackend\JobApi\obj\Debug\net6.0\JobApi.dll
 C:\Users\ionut\RiderProjects\TimerBackend\JobApi\obj\Debug\net6.0\ref\JobApi.dll
 C:\Users\ionut\RiderProjects\TimerBackend\JobApi\obj\Debug\net6.0\JobApi.pdb
 C:\Users\ionut\RiderProjects\TimerBackend\JobApi\obj\Debug\net6.0\JobApi.genruntimeconfig.cache
-C:\Users\ionut\RiderProjects\TimerBackend\JobApi\bin\Debug\net6.0\Camunda.OpenApi.Client.dll
-C:\Users\ionut\RiderProjects\TimerBackend\JobApi\bin\Debug\net6.0\JsonSubTypes.dll
 C:\Users\ionut\RiderProjects\TimerBackend\JobApi\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\ionut\RiderProjects\TimerBackend\JobApi\bin\Debug\net6.0\Polly.dll
+C:\Users\ionut\RiderProjects\TimerBackend\JobApi\bin\Debug\net6.0\RestEase.dll

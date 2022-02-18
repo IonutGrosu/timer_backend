@@ -2,5 +2,5 @@
 
 public class DueDate
 {
-    public String duedate { get; set; }
+    public DateTimeOffset duedate { get; set; }
 }

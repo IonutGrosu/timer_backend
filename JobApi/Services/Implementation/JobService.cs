@@ -1,26 +1,36 @@
-﻿using System.Text;
+﻿using JobApi.Api;
 using JobApi.Models;
-using JsonSerializer = System.Text.Json.JsonSerializer;
+using Newtonsoft.Json;
+using RestEase;
 
 namespace JobApi.Services.Implementation;
 
 public class JobService : IJobService
 {
+    private IJobApi api;
+
+    public JobService()
+    {
+        var settings = new JsonSerializerSettings()
+        {
+            DateFormatString = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        };
+        api = new RestClient("http://localhost:8080/engine-rest")
+        {
+            JsonSerializerSettings = settings
+        }.For<IJobApi>();
+    }
+
     public async Task UpdateDueDate(string id, DueDate newDueDate)
     {
-        Console.WriteLine(newDueDate.duedate);
-
-        HttpClient client = new HttpClient();
-        string json = JsonSerializer.Serialize(newDueDate);
-
-        StringContent content = new StringContent(
-            json,
-            Encoding.UTF8,
-            "application/json");
-
-        HttpResponseMessage responseMessage =
-            await client.PutAsync($"http://localhost:8080/engine-rest/job/{id}/duedate", content);
-        if (!responseMessage.IsSuccessStatusCode)
-            throw new Exception($@"Error: {responseMessage.StatusCode}, {responseMessage.ReasonPhrase}");
+        try
+        {
+            await api.UpdateDueDateAsync(id, newDueDate);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
     }
 }
